@@ -9,7 +9,20 @@
     <%= sale.ends_on %>
   </td>
   <td>
-    STATUS
+    <!-- <span class="badge bg-success">Active</span>
+    <span class="badge bg-danger">Finished</span>
+    <span class="badge bg-warning text-dark">Upcoming</span>-->
+
+    <%# if sale.ends_on < Date.current %>
+    <% if sale.finished? %>
+      <span class="badge bg-danger">Finished</span>
+    <%# elsif sale.starts_on > Date.current %>
+    <% elsif sale.upcoming? %>
+      <span class="badge bg-warning text-dark">Upcoming</span>
+    <% else %>
+      <span class="badge bg-success">Active</span>
+    <% end %>
+
   </td>
   <td>
     <%= sale.percent_off %>

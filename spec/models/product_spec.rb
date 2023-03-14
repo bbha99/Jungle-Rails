@@ -17,7 +17,6 @@ RSpec.describe Product, type: :model do
       it 'should validate price to not be present' do
         @product.price_cents = nil
         @product.save
-        # puts @product.errors.full_messages
         expect(@product.price_cents).to_not be_present
         expect(@product.errors.full_messages).to include("Price cents is not a number")
         expect(@product.errors.full_messages).to include("Price is not a number")
@@ -26,14 +25,12 @@ RSpec.describe Product, type: :model do
       it 'should validate quantity to not be present' do
         @product.quantity = nil
         @product.save
-        # puts @product.errors.full_messages
         expect(@product.quantity).to_not be_present
         expect(@product.errors.full_messages).to include("Quantity can't be blank")
       end
       it 'should validate category to not be present' do
         @product.category = nil
         @product.save
-        puts @product.errors.full_messages
         expect(@product.category).to_not be_present
         expect(@product.errors.full_messages).to include("Category must exist")
         expect(@product.errors.full_messages).to include("Category can't be blank")

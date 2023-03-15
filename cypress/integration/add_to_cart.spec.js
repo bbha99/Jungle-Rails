@@ -11,6 +11,8 @@ describe('visiting the homepage', () => {
   });
 
   it("should click the add to cart button of the first product", () => {
+    cy.contains("My Cart (1)").should('not.exist')
+    cy.get(".nav-link").contains("My Cart (0)")
     cy.get('article [action="/cart/add_item?product_id=1"] .btn').click()
     cy.get(".nav-link").contains("My Cart (1)")
   });

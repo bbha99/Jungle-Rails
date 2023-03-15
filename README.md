@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 6.1
 
 ## Final Product
 
@@ -9,7 +9,7 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 !["screenshot of the cart page"](https://github.com/bbha99/Jungle-Rails/blob/master/docs/cart-page.png?raw=true)
 !["screenshot of the admin dashboard"](https://github.com/bbha99/Jungle-Rails/blob/master/docs/admin-dashboard-page.png?raw=true)
 !["screenshot of the admin product page"](https://github.com/bbha99/Jungle-Rails/blob/master/docs/admin-product-page.png?raw=true)
-!["screenshot of the category page"](https://github.com/bbha99/Jungle-Rails/blob/master/docs/admin-category.page.png?raw=true)
+!["screenshot of the category page"](https://github.com/bbha99/Jungle-Rails/blob/master/docs/admin-category-page.png?raw=true)
 
 ## Setup
 

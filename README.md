@@ -4,12 +4,12 @@ A mini e-commerce application built with Rails 6.1 for purposes of teaching Rail
 
 ## Final Product
 
-!["screenshot of the homepage"](https://github.com/bbha99/Jungle-Rails/blob/master/doc/homepage.png?raw=true)
-!["screenshot of adding product to cart"](https://github.com/bbha99/Jungle-Rails/blob/master/doc/add-to-cart.png?raw=true)
-!["screenshot of the cart page"](https://github.com/bbha99/Jungle-Rails/blob/master/doc/cart-page.png?raw=true)
-!["screenshot of the admin dashboard"](https://github.com/bbha99/Jungle-Rails/blob/master/doc/admin-dashboard-page.png?raw=true)
-!["screenshot of the admin product page"](https://github.com/bbha99/Jungle-Rails/blob/master/doc/admin-product-page.png?raw=true)
-!["screenshot of the category page"](https://github.com/bbha99/Jungle-Rails/blob/master/doc/admin-category.page.png?raw=true)
+!["screenshot of the homepage"](https://github.com/bbha99/Jungle-Rails/blob/master/docs/homepage.png?raw=true)
+!["screenshot of adding product to cart"](https://github.com/bbha99/Jungle-Rails/blob/master/docs/add-to-cart.png?raw=true)
+!["screenshot of the cart page"](https://github.com/bbha99/Jungle-Rails/blob/master/docs/cart-page.png?raw=true)
+!["screenshot of the admin dashboard"](https://github.com/bbha99/Jungle-Rails/blob/master/docs/admin-dashboard-page.png?raw=true)
+!["screenshot of the admin product page"](https://github.com/bbha99/Jungle-Rails/blob/master/docs/admin-product-page.png?raw=true)
+!["screenshot of the category page"](https://github.com/bbha99/Jungle-Rails/blob/master/docs/admin-category.page.png?raw=true)
 
 ## Setup
 
